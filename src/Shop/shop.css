@@ -1,0 +1,95 @@
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: rgba(118, 159, 229, 0.35) 0px 1px 6px;
+    padding: 10px 2px;
+}
+.shopimagediv{
+    flex-basis: 40%;
+}
+.shopdetaildiv{
+    flex-basis: 60%;
+}
+.shopimage{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+.premiumofferdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.premiumdiv{
+    font-size: 80%;
+    margin-right: 10px;
+    background: #44A9FB;
+    color: white;
+    border-radius: 5px;
+    padding: 0px 3px;
+    display: flex;
+    align-items: center;
+}
+.offerdiv{
+    font-size: 80%;
+    border: 1px solid #44A9FB;
+    border-radius: 5px;
+    color: #44A9FB;
+    padding: 0px 3px;
+    display: flex;
+    align-items: center;
+}
+.shoptitle{
+    text-align: left;
+    color: #000000;
+}
+.shoptype{
+    text-align: left;
+    color: #969696;
+}
+.shopreview{
+    display: flex;
+    justify-content: space-between;
+}
+.inputText3{
+    width: 70%;
+    border-radius: 10px;
+    padding: 8px 20px;
+}
+.filterdiv{
+    height: 100vh;
+    background-color: #6188C173;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+}
+.filterinnerdiv{
+    background: #FFFFFF;
+    text-align: left;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 35%;
+    box-shadow: #ffffff 0px 3px 6px;
+    padding: 10px 20px 10px 30px;
+}
+.buttondiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttoninnerdiv{
+    background: #44A9FB85;
+    color: white;
+    margin-top: 10px;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+@media screen and (max-width:570px) {
+    .shopimage{
+        width: 86px;
+        height: 86px;
+        border-radius: 20px;
+    }
+}
